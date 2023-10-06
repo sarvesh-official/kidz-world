@@ -164,167 +164,169 @@ footer{
 
 /* Mobile Responsive */
 
-@media (min-width:393px) {
-    body {
-            max-width: 393px;
-        }
+@media (max-width:394px) {
     
-        /* Nav */
-    
-        #logo {
-            width: 90px;
-        }
-    
-        #carticon {
-            height: 40px;
-        }
-    
-        .stack1 {
-            display: flex;
-            margin-left: 20px;
-        }
-    
-        .stack2 {
-            text-align: center;
-            display: flex;
-            width: 150px;
-            margin-right: 10px;
-        }
-    
-        /* Header */
-    
-        header {
-            margin-top: 10px;
-            height: 300px;
-            background: url(assets/kw-background.png);
-            background-size: 393px 300px;
-            background-repeat: no-repeat;
-            padding-top: 20px;
-            padding-left: 20px;
-        }
-    
-        .heros {
-            line-height: 50px;
-            color: white;
-            padding-right: 300px;
-        }
-    
-        .heros h1 {
-            font-size: 40px;
-        }
-    
-        .heros h5 {
-            margin-top: 20px;
-            font-size: 15px;
-        }
-    
-        /* Discover Section */
-    
-    
-        .container h3 {
-            margin-top: 50px;
-            font-size: 30px;
-            margin-left: -30px;
-        }
-    
-        /* Books */
-        .books {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            margin-left: -40px;
-            justify-content: space-between;
-        }
-    
-        .item {
-            margin-top: 30px;
-            width: 100%;
-            margin-bottom: 50px;
-            height: 100%;
-            line-height: 30px;
-            margin-bottom: 50px;
-            text-align: center;
-    
-        }
-    
-        .item img {
-            height: 300px;
-        }
-    
-        .item h4 {
-            font-size: 20px;
-            font-weight: bolder;
-        }
-    
-        .costandadd {
-            display: flex;
-            justify-content: space-between;
-    
-        }
-    
-        #cardbuttonimg {
-            margin-top: 8px;
-            margin-left: 4px;
-            height: 15px;
-        }
-    
-    
-    
-        .addbutton {
-            border-radius: 5px;
-            padding: 0px 5px;
-            color: white;
-            display: flex;
-            background-color: rgb(97, 150, 255);
-            width: 60px;
-        }
-    
-    
-        /* Games and Handmade*/
-    
-        .games {
-            width: 100%;
-        }
-    
-        .games .item {
-            width: 100%;
-        }
-    
-        .games img {
-            width: 99.9%;
-            margin-left: -4px;
-        }
-    
-        /* Footer */
-    
-        footer {
-            margin-top: 20px;
-            padding-top: 20px;
-            display: flex;
-            background-color: black;
-            height: 100%;
-            color: white;
-            justify-content: space-between;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    
-        .fostack1 {
-            text-align: center;
-        }
-    
-        .fostack1 img {
-            height: 120px;
-        }
-    
-        .fostack2 {
-            text-align: end;
-            padding-top: 40px;
-            line-height: 16px;
-    
-        }
-    
-        .fostack2 h4 {
-            padding-bottom: 20px;
-        }
+
+
+    body{
+        width: 393px;
+}   
+/* Nav */
+
+    #logo {
+        width: 90px;
+}
+
+#carticon {
+    height: 40px;
+}
+
+.stack1 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.stack2 {
+    text-align: center;
+    display: flex;
+    width: 150px;
+    margin-right: 10px;
+}
+
+/* Header */
+
+header {
+    margin-top: 10px;
+    height: 300px;
+    background: url(assets/kw-background.png);
+    background-size: 393px 300px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.heros {
+    line-height: 50px;
+    color: white;
+    padding-right: 300px;
+}
+
+.heros h1 {
+    font-size: 40px;
+}
+
+.heros h5 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Discover Section */
+
+
+.container h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: -30px;
+}
+
+/* Books */
+.books {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: -40px;
+    justify-content: space-between;
+}
+
+.item {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+    height: 100%;
+    line-height: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.item img {
+    height: 300px;
+}
+
+.item h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.costandadd {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#cardbuttonimg {
+    margin-top: 8px;
+    margin-left: 4px;
+    height: 15px;
+}
+
+
+
+.addbutton {
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: white;
+    display: flex;
+    background-color: rgb(97, 150, 255);
+    width: 60px;
+}
+
+
+/* Games and Handmade*/
+
+.games {
+    width: 100%;
+}
+
+.games .item {
+    width: 100%;
+}
+
+.games img{
+    width: 99.9%;
+    margin-left: -4px;
+}
+
+/* Footer */
+
+footer {margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    background-color: black;
+    height: 100%;
+    color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fostack1 {
+    text-align: center;
+}
+
+.fostack1 img {
+    height: 120px;
+}
+
+.fostack2 {
+    text-align: end;
+    padding-top: 40px;
+    line-height: 16px;
+
+}
+
+.fostack2 h4 {
+    padding-bottom: 20px;
+}
+
+
 }
